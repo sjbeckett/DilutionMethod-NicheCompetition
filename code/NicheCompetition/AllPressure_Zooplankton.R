@@ -75,7 +75,7 @@
 
 	YLIM=c(0.1,100)
 	TIMEINDEX = which(GG1_b_new$Timings==TIMINGS[rrr])  ##
-	plot(NA, NA , type='l',  xlim=c(0,1) ,  xlab=expression(" Zooplankton pressure (" *delta [Z] *") "), ylab = "Mortality rate bias", log="y", ylim=YLIM, xaxs="i", yaxs="i",cex.lab=1.8,cex.axis=1.8)
+	plot(NA, NA , type='l',  xlim=c(0,1) ,  xlab=expression(" Grazing pressure (" *delta [Z] *") "), ylab = "Mortality rate bias", log="y", ylim=YLIM, xaxs="i", yaxs="i",cex.lab=1.8,cex.axis=1.8)
 
 	rect(OFFSET,0.75,1-OFFSET,1.25,col='grey50',border='grey50')
 	rect(OFFSET,0.9,1-OFFSET,1.1,col='grey',border='grey')
@@ -114,7 +114,7 @@
 
 	YLIM=c(0.1,100)
 	TIMEINDEX = which(GG1_b_new$Timings==TIMINGS[rrr])  ##
-	plot(NA, NA , type='l',  xlim=c(0,1) ,  xlab=expression(" Zooplankton pressure (" *delta [Z] *") "), ylab = "Mortality rate bias", log="y", ylim=YLIM, xaxs="i", yaxs="i",cex.lab=1.8,cex.axis=1.8) 
+	plot(NA, NA , type='l',  xlim=c(0,1) ,  xlab=expression(" Grazing pressure (" *delta [Z] *") "), ylab = "Mortality rate bias", log="y", ylim=YLIM, xaxs="i", yaxs="i",cex.lab=1.8,cex.axis=1.8) 
 
 	rect(OFFSET,0.75,1-OFFSET,1.25,col='grey50',border='grey50')
 	rect(OFFSET,0.9,1-OFFSET,1.1,col='grey',border='grey')

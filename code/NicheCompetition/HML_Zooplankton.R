@@ -82,7 +82,7 @@
 
 	INDEX24H = which(GG1_b_new$Timings==24)
 
-	plot(NA,NA,xlim=c(0.5,3.5),ylim=c(0,24*0.045),xaxt='n',yaxt='n',xaxs='i',yaxs='i',xlab=expression(" Zooplankton pressure (" *delta [Z] *") "),ylab=expression("Mortality rate (d"^-1*")"),cex.lab=1.8)
+	plot(NA,NA,xlim=c(0.5,3.5),ylim=c(0,24*0.045),xaxt='n',yaxt='n',xaxs='i',yaxs='i',xlab=expression(" Grazing pressure (" *delta [Z] *") "),ylab=expression("Mortality rate (d"^-1*")"),cex.lab=1.8)
 	axis(2,cex.axis=1.8) #yaxis
 	axis(1,at=1:3,labels=c("Low","Intermediate","High"),cex.axis=1.8)
 
@@ -156,7 +156,7 @@
 
 	INDEX24H = which(GG1_b_new$Timings==24)
 
-	plot(NA,NA,xlim=c(0.5,3.5),ylim=c(0,24*0.045),xaxt='n',yaxt='n',xaxs='i',yaxs='i',xlab=expression(" Zooplankton pressure (" *delta [Z] *") "),ylab=expression("Mortality rate (d"^-1*")"),cex.lab=1.8)
+	plot(NA,NA,xlim=c(0.5,3.5),ylim=c(0,24*0.045),xaxt='n',yaxt='n',xaxs='i',yaxs='i',xlab=expression(" Grazing pressure (" *delta [Z] *") "),ylab=expression("Mortality rate (d"^-1*")"),cex.lab=1.8)
 	axis(2,cex.axis=1.8) #yaxis
 	axis(1,at=1:3,labels=c("Low","Intermediate","High"),cex.axis=1.8)
 
